@@ -1,0 +1,9 @@
+[
+  "unique_words_ratio",
+  "text_length_limpio",
+  "sent_pos",
+  "headline_length_limpio",
+  "exclamaciones",
+  "complejidad",
+  "count_true_words"
+]

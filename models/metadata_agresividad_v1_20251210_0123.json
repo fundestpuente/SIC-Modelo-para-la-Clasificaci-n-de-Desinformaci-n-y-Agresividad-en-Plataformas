@@ -1,0 +1,44 @@
+{
+  "nombre_modelo": "Logistic Regression",
+  "accuracy": 0.7838,
+  "f1_score": 0.6825,
+  "precision_agresivo": 0.67,
+  "recall_agresivo": 0.69,
+  "dataset_size": 4950,
+  "train_size": 3960,
+  "test_size": 990,
+  "distribucion": {
+    "No agresivo": 3294,
+    "Agresivo": 1656
+  },
+  "vocabulario_size": 2754,
+  "stopwords_size": 647,
+  "fecha_entrenamiento": "20251210_0123",
+  "hiperparametros": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 1000,
+    "multi_class": "deprecated",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": 42,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "limitaciones_conocidas": [
+    "Falsos negativos en lenguaje sutilmente agresivo",
+    "Precisión clase agresivo: 67%",
+    "Recall clase agresivo: 69%"
+  ],
+  "recomendaciones_mejora": [
+    "Incorporar análisis léxico específico de odio",
+    "Añadir características estilísticas (longitud, puntuación)",
+    "Usar dataset_sentimiento.txt para análisis de negatividad"
+  ]
+}
